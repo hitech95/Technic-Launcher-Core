@@ -1,36 +1,67 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Compiled source #
+###################
+bin
+lib
+out
+target
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Folder config file
-Desktop.ini
+# Git #
+#######
+.git
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS generated files #
+######################
 .DS_Store
-.AppleDouble
-.LSOverride
+ehthumbs.db
+Icon?
+Thumbs.db
 
-# Icon must ends with two \r.
-Icon
+# Build files #
+#################
+MANIFEST.MF
+dependency-reduced-pom.xml
 
-# Thumbnails
-._*
+# Project files #
+#####################
+.classpath
+.externalToolBuilders
+.idea
+.project
+.settings
+build
+dist
+nbproject
+atlassian-ide-plugin.xml
+build.xml
+nb-configuration.xml
+*.iml
+*.ipr
+*.iws
+*.jfd
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# Misc files #
+##############
+*.bak
